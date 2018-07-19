@@ -8,5 +8,6 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Translation\Model\FileManager" type="VladFlonta\InlineTranslationFix\Model\FileManager" />
     <preference for="Magento\Translation\Model\Inline\Parser" type="VladFlonta\InlineTranslationFix\Model\Inline\Parser"/>
 </config>

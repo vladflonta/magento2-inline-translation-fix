@@ -6,7 +6,7 @@ Fixes inline translation from within script tag elements.
 
 1. Get the module via composer
    ```
-   composer require "vladflonta/magento2-inline-translation-fix":"~1.0"
+   composer require "vladflonta/magento2-inline-translation-fix":"~1.1"
    ```
 
    or via git 
